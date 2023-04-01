@@ -1,3 +1,10 @@
+# Summary
+
+Clean Arcihtecture typescript boilerplate
+
+with ChatGPT(-3.5)
+
+# Chat log
 
 ## Q. TypeScriptでExpressを使用してAPIサーバーを作成する際、クリーンアーキテクチャを構成したい場合、どのようなディレクトリ構成になるか記載してください
 
@@ -129,10 +136,16 @@ tsconfig.jsonファイルには、TypeScriptのコンパイル設定が定義さ
 
 また、それぞれの実装において、単体テストを行いながら実装を進めることが重要です。単体テストによって、各層の振る舞いを確認しながら実装を進めることができます。
 
-## (手動)
+# 手動部分
 
 `npm init`で作成開始
 
 `volta pin node@18.15.0`でパッケージ管理
 
 `npm install express`でExpressインストール
+
+`filepath` + `を記述してください`で指示して作成。
+
+ex.) `src/infrastructure/server.ts`を記述してください。
+
+一部整合性の取れなかった部分は適宜修正。
